@@ -42,6 +42,10 @@ body {
   column-gap: 24px;
 }
 
+.nav-link {
+  color: black;
+}
+
 .header-btn {
   margin-left: 34px;
 }
