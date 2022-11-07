@@ -36,7 +36,10 @@
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
   .btn {
     margin-right: 60px;
   }
@@ -45,7 +48,7 @@
   }
   .nav-button {
     display: block;
-    margin-top: 5px;
+    margin-top: 40px;
   }
 
   .nav.open .nav-list {
@@ -55,7 +58,7 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 500px;
+    left: 0px;
     right: 0;
     padding: 30px 20px;
     flex-direction: column;
@@ -69,7 +72,14 @@
     position: fixed;
     z-index: 2;
     right: 20px;
-    top: 3 0px;
+    top: 20px;
+  }
+  .section {
+    display: block;
+  }
+  .volunteer {
+    display: block;
+    margin-bottom: 100px;
   }
 
   .section .section-imgs {
@@ -88,14 +98,23 @@
     background-position: 0px 130px, 90px 50px, 100px 240px;
     background-size: 50%;
   }
+  .volunteer-title {
+    font-size: 35px;
+  }
+  .non-profit-title {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 35px;
+  }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .header_nav {
     margin-bottom: 100px;
   }
   .title {
-    font-size: 35px;
+    font-size: 20px;
   }
 
   .header-contetns {
@@ -139,5 +158,12 @@
       url("../img/dog-5.png") no-repeat, url("../img/dog-6.png") no-repeat;
     background-position: 0px 100px, 130px 20px, 120px 280px;
     background-size: 65%;
+  }
+
+  .btn-1 {
+    font-size: 14px;
+  }
+  .btn-2 {
+    font-size: 14px;
   }
 }
