@@ -54,6 +54,10 @@ body {
   border-radius: 5px;
 }
 
+.nav-button {
+  display: none;
+}
+
 /* Header content */
 .header-contetns {
   margin-bottom: 494px;
@@ -167,7 +171,6 @@ body {
 .volunteer {
   display: flex;
   justify-content: space-between;
-  margin-right: 107px;
   margin-bottom: 400px;
 }
 .volunteer-title {
@@ -176,6 +179,7 @@ body {
   margin: 58px 0 40px 0;
 }
 .volunteer-info {
+  margin-right: 107px;
   margin-bottom: 24px;
   font-weight: 500;
 }
