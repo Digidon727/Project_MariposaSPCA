@@ -41,15 +41,14 @@ body {
   display: flex;
   column-gap: 24px;
 }
-
 .nav-link {
   color: black;
 }
-
 .header-btn {
   margin-left: 34px;
 }
 .btn {
+  color: #000000;
   background-color: #fdb461;
   padding: 6px 20px;
   border-radius: 5px;
@@ -60,7 +59,7 @@ body {
   margin-bottom: 494px;
 }
 
-.titile {
+.title {
   color: black;
   font-size: 72px;
   font-weight: 700;
@@ -164,12 +163,11 @@ body {
 .volunteers {
   padding-top: 60px;
 }
-.container {
-}
+
 .volunteer {
   display: flex;
   justify-content: space-between;
-  column-gap: 107px;
+  margin-right: 107px;
   margin-bottom: 400px;
 }
 .volunteer-title {
@@ -193,12 +191,6 @@ body {
 .volunteer-card-img {
   margin-right: 24px;
 }
-.volunteer-card-info {
-}
-.card-info {
-}
-.card-info2 {
-}
 .volunteer-img {
   min-width: 542px;
   min-height: 671px;
@@ -208,12 +200,6 @@ body {
   background-position: 0 170px, 157px 0, 200px 295px;
 }
 
-.non-profit {
-}
-.container {
-}
-.non-profits {
-}
 .non-profit-title {
   font-size: 72px;
   font-weight: 700;

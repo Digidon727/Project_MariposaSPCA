@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .header_nav .nav {
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section .section-imgs {
+    min-width: 58%;
+    background: url("../img/dog-1.png") no-repeat,
+      url("../img/dog-2.png") no-repeat, url("../img/dog-3.png") no-repeat;
+    background-position: 0 0, 170px 124px, 42px 296px;
+    background-size: 60%;
+    margin-right: 0;
+  }
+
+  .sction-title {
+    font-size: 55px;
+  }
+  .volunteer-img {
+    min-width: 58%;
+    background: url("../img/dog-4.png") no-repeat,
+      url("../img/dog-5.png") no-repeat, url("../img/dog-6.png") no-repeat;
+    background-position: 30px 170px, 170px 0, 200px 295px;
+    background-size: 60%;
+  }
+  .volunteer {
+    display: flex;
+    margin-right: 0px;
+  }
+}
